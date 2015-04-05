@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="buflea" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../bin/buflea/buflea" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../../bin/buflea" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="dddd" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-g" />
+					<Add option="-DDEBUG" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../bin/buflea/buflea" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../../bin/buflea" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-fpermissive" />
+			<Add option="-D__USE_MISC" />
+			<Add directory="../mcoinclude" />
+			<Add directory="../mcosocks" />
+			<Add directory="../dnsprx_common" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wunused-variable" />
+			<Add library="pthread" />
+			<Add library="dl" />
+			<Add library="../lib/libmcosock.a" />
+		</Linker>
+		<Unit filename="../../../bin/buflea/acl/allow.txt" />
+		<Unit filename="../../../bin/buflea/acl/banned.txt" />
+		<Unit filename="../../../bin/buflea/acl/hosts.txt" />
+		<Unit filename="../../../bin/buflea/buflea.conf" />
+		<Unit filename="../../../bin/buflea/buflea.conf-public" />
+		<Unit filename="../../../bin/buflea/buflea.conf.save" />
+		<Unit filename="../../../bin/buflea/buflea.sysV" />
+		<Unit filename="../../../bin/buflea/install.sh" />
+		<Unit filename="../../../bin/buflea/www/register.php" />
+		<Unit filename="../../../bin/buflea/www/userctl.php" />
+		<Unit filename="../bin/buflea.conf" />
+		<Unit filename="../mcoinclude/config.cpp" />
+		<Unit filename="../mcoinclude/config.h" />
+		<Unit filename="../mcoinclude/consts.h" />
+		<Unit filename="../mcoinclude/errorstrings.h" />
+		<Unit filename="../mcoinclude/matypes.h" />
+		<Unit filename="../mcoinclude/minidb.cpp" />
+		<Unit filename="../mcoinclude/minidb.h" />
+		<Unit filename="../mcoinclude/modiface.h" />
+		<Unit filename="../mcoinclude/os.h" />
+		<Unit filename="../mcoinclude/procinst.h" />
+		<Unit filename="../mcoinclude/sslcrypt.cpp" />
+		<Unit filename="../mcoinclude/sslcrypt.h" />
+		<Unit filename="../mcoinclude/strutils.h" />
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="certs.txt" />
+		<Unit filename="configprx.cpp" />
+		<Unit filename="configprx.h" />
+		<Unit filename="context.cpp" />
+		<Unit filename="context.h" />
+		<Unit filename="context4.cpp" />
+		<Unit filename="context4.h" />
+		<Unit filename="context5.cpp" />
+		<Unit filename="context5.h" />
+		<Unit filename="contextctl.cpp" />
+		<Unit filename="contextctl.h" />
+		<Unit filename="contextdns.cpp" />
+		<Unit filename="contextdns.h" />
+		<Unit filename="contexthttp.cpp" />
+		<Unit filename="contexthttp.h" />
+		<Unit filename="contextpass.cpp" />
+		<Unit filename="contextpass.h" />
+		<Unit filename="contextreg.cpp" />
+		<Unit filename="contextreg.h" />
+		<Unit filename="ctxqueue.cpp" />
+		<Unit filename="ctxqueue.h" />
+		<Unit filename="ctxthread.cpp" />
+		<Unit filename="ctxthread.h" />
+		<Unit filename="dnsthread.cpp" />
+		<Unit filename="dnsthread.h" />
+		<Unit filename="httphdr.cpp" />
+		<Unit filename="httphdr.h" />
+		<Unit filename="listeners.cpp" />
+		<Unit filename="listeners.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="makecerts.sh" />
+		<Unit filename="readme.txt" />
+		<Unit filename="tasker.cpp" />
+		<Unit filename="tasker.h" />
+		<Unit filename="tcppipe.cpp" />
+		<Unit filename="tcppipe.h" />
+		<Unit filename="threadpool.cpp" />
+		<Unit filename="threadpool.h" />
+		<Unit filename="tinyclasses.cpp" />
+		<Unit filename="tinyclasses.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

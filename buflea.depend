@@ -1,0 +1,1580 @@
+# depslib dependency file v1.0
+1409243050 source:/home/marius/CPP/GOOGLE/pizubuf/dnsprx_common/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<config.h>
+	<strutils.h>
+
+1409589938 /home/marius/CPP/GOOGLE/pizubuf/dnsprx_common/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+	<set>
+	<vector>
+	<sock.h>
+	<errorstrings.h>
+	"strutils.h"
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/os.h
+	<errno.h>
+	<unistd.h>
+	<assert.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<wchar.h>
+
+1409239383 /home/marius/CPP/GOOGLE/pizubuf/socklib/sock.h
+	<os.h>
+	<sys/socket.h>
+	<resolv.h>
+	<sys/select.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<netdb.h>
+	<string.h>
+	<string>
+	<fstream>
+	<math.h>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/errorstrings.h
+	<consts.h>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/matypes.h
+	<stddef.h>
+	<os.h>
+	<sock.h>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1409628739 source:/home/marius/CPP/GOOGLE/pizubuf/dnsprx_common/minidb.cpp
+	<iostream>
+	<sock.h>
+	<minidb.h>
+	<config.h>
+
+1409627190 /home/marius/CPP/GOOGLE/pizubuf/dnsprx_common/minidb.h
+	<os.h>
+	<sock.h>
+	<strutils.h>
+	<sys/stat.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<matypes.h>
+	<map>
+	<vector>
+	<config.h>
+	<minidb.h>
+
+1409625119 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/configprx.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<strutils.h>
+	"configprx.h"
+
+1409244623 /home/marius/CPP/GOOGLE/pizubuf/buflea/configprx.h
+	<config.h>
+
+1409628436 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/context.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"minidb.h"
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/buflea/main.h
+	<dlfcn.h>
+	<os.h>
+
+1409616291 /home/marius/CPP/GOOGLE/pizubuf/buflea/context.h
+	<string>
+	<map>
+	<vector>
+	<os.h>
+	<sock.h>
+	"tinyclasses.h"
+	"main.h"
+	"configprx.h"
+	"tcppipe.h"
+	"sslcrypt.h"
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/buflea/tinyclasses.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<os.h>
+	<sock.h>
+
+1408460064 /home/marius/CPP/GOOGLE/pizubuf/buflea/tcppipe.h
+	<iostream>
+	<sock.h>
+	"main.h"
+	"strutils.h"
+	"threadpool.h"
+	"sslcrypt.h"
+
+1409544912 /home/marius/CPP/GOOGLE/pizubuf/buflea/threadpool.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<queue>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	<minidb.h>
+
+1409544859 /home/marius/CPP/GOOGLE/pizubuf/buflea/ctxqueue.h
+	<iosfwd>
+	<deque>
+	"os.h"
+
+1408460232 /home/marius/CPP/GOOGLE/pizubuf/buflea/sslcrypt.h
+
+1409544847 /home/marius/CPP/GOOGLE/pizubuf/buflea/ctxthread.h
+	<sys/types.h>
+	<unistd.h>
+	<vector>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+
+1409544847 /home/marius/CPP/GOOGLE/pizubuf/buflea/listeners.h
+	<string>
+	<vector>
+	<sock.h>
+	"os.h"
+	"config.h"
+	"context.h"
+	"sslcrypt.h"
+
+1409599405 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/context4.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context4.h"
+
+1381428614 /home/marius/CPP/GOOGLE/pizubuf/buflea/context4.h
+	"context.h"
+
+1409599445 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/context5.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	<errorstrings.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context5.h"
+
+1381428621 /home/marius/CPP/GOOGLE/pizubuf/buflea/context5.h
+	"context.h"
+
+1409599457 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contexta.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexta.h"
+	"dnsthread.h"
+
+1408841736 /home/marius/CPP/GOOGLE/pizubuf/buflea/contexta.h
+	<string>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/buflea/dnsthread.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<list>
+	<algorithm>
+	<matypes.h>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	"minidb.h"
+
+1409599465 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contextd.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextd.h"
+	"dnsthread.h"
+
+1409085919 /home/marius/CPP/GOOGLE/pizubuf/buflea/contextd.h
+	<list>
+
+1409625548 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contexth.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexth.h"
+	"dnsthread.h"
+
+1408841736 /home/marius/CPP/GOOGLE/pizubuf/buflea/contexth.h
+	<list>
+
+1409588511 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/ctxqueue.cpp
+	"os.h"
+	"ctxqueue.h"
+	"context.h"
+
+1409589141 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/ctxthread.cpp
+	<assert.h>
+	<algorithm>
+	<consts.h>
+	"main.h"
+	"tinyclasses.h"
+	"ctxthread.h"
+	"threadpool.h"
+	"configprx.h"
+	"ctxqueue.h"
+	"context.h"
+	<strutils.h>
+
+1409066055 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/dnsthread.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+	"configprx.h"
+
+1409623313 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/listeners.cpp
+	<map>
+	<assert.h>
+	<iostream>
+	<sstream>
+	<signal.h>
+	<consts.h>
+	<fcntl.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"threadpool.h"
+	"context4.h"
+	"context5.h"
+	"contexth.h"
+	"contextd.h"
+	"contexta.h"
+	"contextt.h"
+	"tcppipe.h"
+
+1409546128 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/main.cpp
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<iostream>
+	<signal.h>
+	"os.h"
+	"main.h"
+	"config.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"context.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"modules.h"
+	<strutils.h>
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/buflea/modules.h
+	<modiface.h>
+	"config.h"
+
+1378931121 /home/marius/CPP/GOOGLE/pizubuf/include/modiface.h
+	<matypes.h>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stddef.h>
+	<sys/time.h>
+
+1408552424 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/sslcrypt.cpp
+	<dlfcn.h>
+	"configprx.h"
+	"sslcrypt.h"
+
+1381431999 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/tcppipe.cpp
+	"tcppipe.h"
+	"configprx.h"
+	"context.h"
+
+1409588511 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/threadpool.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"config.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+
+1381267884 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/tinyclasses.cpp
+	<sock.h>
+	<strutils.h>
+	"configprx.h"
+	"tinyclasses.h"
+
+1408806105 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contextassl.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextassl.h"
+	"dnsthread.h"
+
+1408460396 /home/marius/CPP/GOOGLE/pizubuf/buflea/contextassl.h
+	<string>
+
+1408806618 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contextctl.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextctl.h"
+	"dnsthread.h"
+
+1408464684 /home/marius/CPP/GOOGLE/pizubuf/buflea/contextctl.h
+	<string>
+
+1409616300 source:/home/marius/CPP/GOOGLE/pizubuf/buflea/contextt.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextt.h"
+	"dnsthread.h"
+
+1409616256 /home/marius/CPP/GOOGLE/pizubuf/buflea/contextt.h
+	<list>
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<config.h>
+	<strutils.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+	<set>
+	<vector>
+	<sock.h>
+	<errorstrings.h>
+	"strutils.h"
+
+1421556356 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/os.h
+	<errno.h>
+	<unistd.h>
+	<assert.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<wchar.h>
+
+1421776593 /home/marius/CPP/GUGLE/src/pizubuf/mcosocks/sock.h
+	<os.h>
+	<sys/socket.h>
+	<resolv.h>
+	<sys/select.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<netdb.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<fstream>
+	<math.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/errorstrings.h
+	<consts.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1421719633 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/matypes.h
+	<stddef.h>
+	<os.h>
+	<sock.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1421779098 source:/home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/minidb.cpp
+	<iostream>
+	<sock.h>
+	<minidb.h>
+	<config.h>
+
+1421778612 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/minidb.h
+	<os.h>
+	<sock.h>
+	<strutils.h>
+	<sys/stat.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<matypes.h>
+	<map>
+	<vector>
+	<config.h>
+	<minidb.h>
+
+1421897257 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/configprx.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<strutils.h>
+	"configprx.h"
+
+1421897257 /home/marius/CPP/GUGLE/src/pizubuf/buflea/configprx.h
+	<config.h>
+
+1421899845 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/context.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"minidb.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/main.h
+	<dlfcn.h>
+	<os.h>
+
+1421899949 /home/marius/CPP/GUGLE/src/pizubuf/buflea/context.h
+	<string>
+	<map>
+	<vector>
+	<os.h>
+	<sock.h>
+	"tinyclasses.h"
+	"main.h"
+	"configprx.h"
+	"tcppipe.h"
+	"sslcrypt.h"
+	"httphdr.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/tinyclasses.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<os.h>
+	<sock.h>
+
+1421900166 /home/marius/CPP/GUGLE/src/pizubuf/buflea/tcppipe.h
+	<iostream>
+	<sock.h>
+	"main.h"
+	"strutils.h"
+	"threadpool.h"
+	"sslcrypt.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/threadpool.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<queue>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	<minidb.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/ctxqueue.h
+	<iosfwd>
+	<deque>
+	"os.h"
+
+1421896740 /home/marius/CPP/GUGLE/src/pizubuf/buflea/sslcrypt.h
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/ctxthread.h
+	<sys/types.h>
+	<unistd.h>
+	<vector>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/listeners.h
+	<string>
+	<vector>
+	<sock.h>
+	"os.h"
+	"config.h"
+	"context.h"
+	"sslcrypt.h"
+
+1421556465 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/context4.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context4.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/context4.h
+	"context.h"
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/context5.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	<errorstrings.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context5.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/context5.h
+	"context.h"
+
+1420842456 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contexta.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexta.h"
+	"dnsthread.h"
+
+1412109907 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contexta.h
+	<string>
+
+1421784403 /home/marius/CPP/GUGLE/src/pizubuf/buflea/dnsthread.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<list>
+	<algorithm>
+	<matypes.h>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	"minidb.h"
+
+1412011400 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextd.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextd.h"
+	"dnsthread.h"
+
+1412011400 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextd.h
+	<list>
+
+1420842471 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contexth.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexth.h"
+	"dnsthread.h"
+
+1412109907 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contexth.h
+	<list>
+
+1420924412 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextt.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextt.h"
+	"dnsthread.h"
+
+1420920172 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextt.h
+	<list>
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/ctxqueue.cpp
+	"os.h"
+	"ctxqueue.h"
+	"context.h"
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/ctxthread.cpp
+	<assert.h>
+	<algorithm>
+	<consts.h>
+	"main.h"
+	"tinyclasses.h"
+	"ctxthread.h"
+	"threadpool.h"
+	"configprx.h"
+	"ctxqueue.h"
+	"context.h"
+	<strutils.h>
+
+1421784509 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/dnsthread.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+	"configprx.h"
+
+1421899223 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/listeners.cpp
+	<map>
+	<assert.h>
+	<iostream>
+	<sstream>
+	<signal.h>
+	<consts.h>
+	<fcntl.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"threadpool.h"
+	"context4.h"
+	"context5.h"
+	"contexthttp.h"
+	"contextdns.h"
+	"contextctl.h"
+	"contextpass.h"
+	"contextreg.h"
+	"tcppipe.h"
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/main.cpp
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/file.h>
+	<iostream>
+	<signal.h>
+	"os.h"
+	"main.h"
+	"config.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"context.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"modules.h"
+	<strutils.h>
+
+1378931121 /home/marius/CPP/GUGLE/src/pizubuf/buflea/modules.h
+	<modiface.h>
+	"config.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/mcoinclude/modiface.h
+	<matypes.h>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stddef.h>
+	<sys/time.h>
+
+1421898964 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/sslcrypt.cpp
+	<dlfcn.h>
+	"configprx.h"
+	"sslcrypt.h"
+
+1421900177 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/tcppipe.cpp
+	"tcppipe.h"
+	"configprx.h"
+	"context.h"
+
+1421702940 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/threadpool.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"config.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/tinyclasses.cpp
+	<sock.h>
+	<strutils.h>
+	"configprx.h"
+	"tinyclasses.h"
+
+1420842505 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextr.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextr.h"
+	"dnsthread.h"
+
+1412096352 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextr.h
+	<list>
+
+1421102093 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contexttr.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexttr.h"
+	"dnsthread.h"
+
+1421087048 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contexttr.h
+
+1421779254 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextctl.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextctl.h"
+	"dnsthread.h"
+
+1421556353 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextctl.h
+	<string>
+
+1421790344 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextdns.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextdns.h"
+	"dnsthread.h"
+
+1421784849 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextdns.h
+	<list>
+
+1421556360 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contexthttp.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexthttp.h"
+	"dnsthread.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contexthttp.h
+	<list>
+
+1421556360 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextpass.h
+
+1421556356 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextpass.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextpass.h"
+	"dnsthread.h"
+
+1421768225 /home/marius/CPP/GUGLE/src/pizubuf/buflea/httphdr.h
+	<string>
+	<map>
+	<vector>
+	<os.h>
+	<sock.h>
+
+1421190550 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/httphdr.cpp
+	"context.h"
+
+1421189531 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextchain.h
+
+1421190567 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextchain.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextchain.h"
+	"dnsthread.h"
+
+1421900260 source:/home/marius/CPP/GUGLE/src/pizubuf/buflea/contextreg.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextreg.h"
+	"dnsthread.h"
+
+1421777453 /home/marius/CPP/GUGLE/src/pizubuf/buflea/contextreg.h
+	<string>
+
+1421556360 source:/home/marius/CPP/GUGLE/src/mitzee/mcoinclude/config.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<config.h>
+	<strutils.h>
+
+1422980917 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/config.h
+	<os.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<iostream>
+	<stdio.h>
+	<string>
+	<sstream>
+	<map>
+	<set>
+	<vector>
+	<sock.h>
+	<errorstrings.h>
+	"strutils.h"
+
+1424967718 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/os.h
+	<errno.h>
+	<unistd.h>
+	<assert.h>
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+	<inttypes.h>
+	<wchar.h>
+
+1424991460 /home/marius/CPP/GUGLE/src/mitzee/mcosocks/sock.h
+	<os.h>
+	<sys/socket.h>
+	<resolv.h>
+	<sys/select.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<sys/time.h>
+	<netdb.h>
+	<stdlib.h>
+	<string.h>
+	<string>
+	<fstream>
+	<math.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/errorstrings.h
+	<consts.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/consts.h
+	<os.h>
+	<matypes.h>
+	<string.h>
+
+1423506371 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/matypes.h
+	<stddef.h>
+	<os.h>
+	<sock.h>
+
+1425494631 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/strutils.h
+	<matypes.h>
+	<stdarg.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<fstream>
+	<sstream>
+	<consts.h>
+
+1423519018 source:/home/marius/CPP/GUGLE/src/mitzee/mcoinclude/minidb.cpp
+	<iostream>
+	<sock.h>
+	<minidb.h>
+	<config.h>
+
+1423518043 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/minidb.h
+	<os.h>
+	<sock.h>
+	<strutils.h>
+	<sys/stat.h>
+	<iostream>
+	<fstream>
+	<string.h>
+	<matypes.h>
+	<map>
+	<vector>
+	<config.h>
+	<minidb.h>
+
+1422899223 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/configprx.cpp
+	<assert.h>
+	<iostream>
+	<stdarg.h>
+	<limits.h>
+	<strutils.h>
+	"configprx.h"
+
+1422902110 /home/marius/CPP/GUGLE/src/mitzee/buflea/configprx.h
+	<config.h>
+
+1425163076 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/context.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"minidb.h"
+	"tasker.h"
+
+1422978666 /home/marius/CPP/GUGLE/src/mitzee/buflea/main.h
+	<dlfcn.h>
+	<os.h>
+
+1422898130 /home/marius/CPP/GUGLE/src/mitzee/buflea/context.h
+	<string>
+	<map>
+	<vector>
+	<os.h>
+	<sock.h>
+	"tinyclasses.h"
+	"main.h"
+	"configprx.h"
+	"tcppipe.h"
+	"sslcrypt.h"
+	"httphdr.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/mitzee/buflea/tinyclasses.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<os.h>
+	<sock.h>
+
+1422730925 /home/marius/CPP/GUGLE/src/mitzee/buflea/tcppipe.h
+	<iostream>
+	<sock.h>
+	"main.h"
+	"strutils.h"
+	"threadpool.h"
+	"sslcrypt.h"
+
+1422918481 /home/marius/CPP/GUGLE/src/mitzee/buflea/threadpool.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<queue>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	<minidb.h>
+
+1421556360 /home/marius/CPP/GUGLE/src/mitzee/buflea/ctxqueue.h
+	<iosfwd>
+	<deque>
+	"os.h"
+
+1422834657 /home/marius/CPP/GUGLE/src/mitzee/buflea/sslcrypt.h
+
+1421768225 /home/marius/CPP/GUGLE/src/mitzee/buflea/httphdr.h
+	<string>
+	<map>
+	<vector>
+	<os.h>
+	<sock.h>
+
+1422467930 /home/marius/CPP/GUGLE/src/mitzee/buflea/ctxthread.h
+	<sys/types.h>
+	<unistd.h>
+	<vector>
+	<algorithm>
+	"tinyclasses.h"
+	"ctxqueue.h"
+
+1422978699 /home/marius/CPP/GUGLE/src/mitzee/buflea/listeners.h
+	<string>
+	<vector>
+	<sock.h>
+	"os.h"
+	"config.h"
+	"context.h"
+	"sslcrypt.h"
+
+1422897532 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/context4.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context4.h"
+
+1422572437 /home/marius/CPP/GUGLE/src/mitzee/buflea/context4.h
+	"context.h"
+
+1422897532 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/context5.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	<errorstrings.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"context5.h"
+
+1422572434 /home/marius/CPP/GUGLE/src/mitzee/buflea/context5.h
+	"context.h"
+
+1424570243 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/contextctl.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextctl.h"
+	"dnsthread.h"
+	"tasker.h"
+
+1422572456 /home/marius/CPP/GUGLE/src/mitzee/buflea/contextctl.h
+	<string>
+
+1423349413 /home/marius/CPP/GUGLE/src/mitzee/buflea/dnsthread.h
+	<sstream>
+	<set>
+	<os.h>
+	<pthread.h>
+	<sys/types.h>
+	<unistd.h>
+	<map>
+	<list>
+	<algorithm>
+	<matypes.h>
+	"tinyclasses.h"
+	"ctxqueue.h"
+	"minidb.h"
+
+1423353164 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/contextdns.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextdns.h"
+	"dnsthread.h"
+
+1422572476 /home/marius/CPP/GUGLE/src/mitzee/buflea/contextdns.h
+	<list>
+
+1422897532 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/contexthttp.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contexthttp.h"
+	"dnsthread.h"
+
+1422572533 /home/marius/CPP/GUGLE/src/mitzee/buflea/contexthttp.h
+	<list>
+
+1422897532 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/contextpass.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextpass.h"
+	"dnsthread.h"
+
+1422572519 /home/marius/CPP/GUGLE/src/mitzee/buflea/contextpass.h
+
+1422850547 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/contextreg.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<sock.h>
+	<strutils.h>
+	"main.h"
+	"config.h"
+	"context.h"
+	<consts.h>
+	<matypes.h>
+	"threadpool.h"
+	"ctxthread.h"
+	"listeners.h"
+	"contextreg.h"
+	"dnsthread.h"
+
+1422572554 /home/marius/CPP/GUGLE/src/mitzee/buflea/contextreg.h
+	<string>
+
+1421556360 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/ctxqueue.cpp
+	"os.h"
+	"ctxqueue.h"
+	"context.h"
+
+1422986977 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/ctxthread.cpp
+	<assert.h>
+	<algorithm>
+	<consts.h>
+	"main.h"
+	"tinyclasses.h"
+	"ctxthread.h"
+	"threadpool.h"
+	"configprx.h"
+	"ctxqueue.h"
+	"context.h"
+	<strutils.h>
+
+1423350213 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/dnsthread.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+	"configprx.h"
+
+1422743330 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/httphdr.cpp
+	"context.h"
+
+1422983430 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/listeners.cpp
+	<map>
+	<assert.h>
+	<iostream>
+	<sstream>
+	<signal.h>
+	<consts.h>
+	<fcntl.h>
+	<strutils.h>
+	"main.h"
+	"configprx.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"threadpool.h"
+	"context4.h"
+	"context5.h"
+	"contexthttp.h"
+	"contextdns.h"
+	"contextctl.h"
+	"contextpass.h"
+	"contextreg.h"
+	"tcppipe.h"
+
+1422979696 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/main.cpp
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/file.h>
+	<iostream>
+	<signal.h>
+	"os.h"
+	"main.h"
+	"config.h"
+	"listeners.h"
+	"ctxqueue.h"
+	"context.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"modules.h"
+	"tasker.h"
+	<strutils.h>
+
+1378931121 /home/marius/CPP/GUGLE/src/mitzee/buflea/modules.h
+	<modiface.h>
+	"config.h"
+
+1421556360 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/modiface.h
+	<matypes.h>
+	<iostream>
+	<string.h>
+	<stdio.h>
+	<stddef.h>
+	<sys/time.h>
+
+1422739186 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/sslcrypt.cpp
+	<dlfcn.h>
+	"configprx.h"
+	"sslcrypt.h"
+
+1422739375 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/tcppipe.cpp
+	"tcppipe.h"
+	"configprx.h"
+	"context.h"
+
+1422986414 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/threadpool.cpp
+	<assert.h>
+	<iostream>
+	<sstream>
+	<consts.h>
+	"main.h"
+	<strutils.h>
+	<sock.h>
+	<string>
+	"config.h"
+	"threadpool.h"
+	"dnsthread.h"
+	"ctxthread.h"
+	"context.h"
+	"ctxqueue.h"
+	"listeners.h"
+	"minidb.h"
+
+1421556360 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/tinyclasses.cpp
+	<sock.h>
+	<strutils.h>
+	"configprx.h"
+	"tinyclasses.h"
+
+1422851228 /home/marius/CPP/GUGLE/src/mitzee/mcoinclude/sslcrypt.h
+	<string>
+
+1422981292 source:/home/marius/CPP/GUGLE/src/mitzee/mcoinclude/sslcrypt.cpp
+	<dlfcn.h>
+	<os.h>
+	<sslcrypt.h>
+	<config.h>
+
+1423510703 /home/marius/CPP/GUGLE/src/mitzee/buflea/tasker.h
+	<os.h>
+	<string>
+	<deque>
+
+1423516856 source:/home/marius/CPP/GUGLE/src/mitzee/buflea/tasker.cpp
+	<minidb.h>
+	"tasker.h"
+	"configprx.h"
+
